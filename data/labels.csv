@@ -1,5 +1,0 @@
-file_name,vulnerability,label
-vuln_01_sql_injection.js,SQL Injection,1
-vuln_02_command_injection.js,Command Injection,1
-safe_01_sql_parameterized.js,None,0
-safe_02_no_eval.js,None,0
