@@ -1,29 +1,7 @@
 {
-  "modelType": "logistic_regression",
-  "featureNames": [
-    "has_sql_keywords",
-    "has_exec",
-    "has_subprocess",
-    "has_eval",
-    "has_hardcoded_secret",
-    "has_path_join_user_input",
-    "has_user_input",
-    "string_concat_count",
-    "line_count",
-    "char_count"
-  ],
-  "trainedAt": "2026-02-12T04:42:26.737Z",
-  "weights": [
-    0.6299372275595242,
-    0.6268462426944349,
-    0,
-    0,
-    0,
-    0,
-    0.008005763393186548,
-    0.6268462426944349,
-    0.650191270366043,
-    0.037956719959512886
-  ],
-  "bias": 0.008005763393186548
+  "modelType" : "logistic_regression",
+  "featureNames" : [ "sql_concat_unsafe", "command_exec_unsafe", "eval_unsafe", "hardcoded_secret", "path_traversal_risk", "tainted_input_used", "safe_sql_parameterized", "safe_execfile_args" ],
+  "trainedAt" : "2026-02-20T14:36:58.120628Z",
+  "weights" : [ 0.5479659549141025, 0.5479659549141025, 0.0, 0.0, 0.0, -0.045760572991609495, -0.5279950886576097, 0.0 ],
+  "bias" : -0.045760572991609495
 }
